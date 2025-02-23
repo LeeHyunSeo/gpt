@@ -8,10 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnableLambda, RunnablePassthrough
 from langchain_community.chat_models import ChatOpenAI
 from langchain.callbacks.base import BaseCallbackHandler
-
 import streamlit as st
-# import nltk
-# nltk.data.path.append("~/nltk_data")
 
 class ChatCallbackHandler(BaseCallbackHandler):
 
