@@ -2,6 +2,6 @@ The XZ backdoor refers to a malicious backdoor that was introduced to the Linux 
 
 The xz utility is commonly present in most Linux distributions, but at the time of discovery, the backdoored version had not been widely deployed to production systems. The backdoor was discovered by software developer Andres Freund, who announced his findings on March 29, 2024.
 
-A backdoor is a covert method of bypassing normal authentication or encryption in a computer system, product, or device. It is often used for securing remote access to a computer or obtaining access to plaintext in cryptosystems. Backdoors can be hidden parts of a program, separate programs, code in firmware, or parts of an operating system. They can be used for gaining access to privileged information, corrupting data, or transferring information within networks.
+A backdoor is a covert method of bypassing normal authentication or encryption in a computer system, product, or device. It is often used for securing remote access to a computer or obtaining access to plaintext in cryptosystems. Backdoors can be hidden parts of a program, separate programs, code in firmware, or parts of an operating system. They can be used for gaining access to privileged information, corrupting or deleting data, or transferring information within networks.
 
-In the case of the XZ backdoor, it was a serious security vulnerability that could have allowed unauthorized remote code execution on affected Linux systems.
+In the case of the XZ backdoor, it was a serious security vulnerability that could have allowed unauthorized access and remote code execution on affected Linux systems.
